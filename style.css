@@ -1,0 +1,101 @@
+body{
+    background-color: #141a29;
+    width: 100%;
+  
+}
+
+#container{
+   /* background: transparent;  */
+    background-color: #141a2965; 
+    width: 35%;
+    height: 250px;
+    margin: auto;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 60px;
+    
+    border-radius: 10px ;
+    border-style: outset;
+    transform:rotate(2.3deg);
+}
+
+#generate-txt{
+    margin-top: 40px;
+    font-size: 22px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#random-txt{
+    margin-top: -23px;
+    color: rgb(93, 204, 148);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+}
+
+#never{
+    margin-top: -15px;
+    color: rgba(255, 255, 255, 0.418);;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:small;
+    font-weight:normal
+}
+
+#toggle-btn{
+    background:rgb(35, 170, 136);
+    border-radius: 5px;
+    color:  rgba(255, 255, 255, 0.856);
+    height: 25px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#generate-btn{
+    background:rgb(35, 170, 136);
+    border-radius: 5px;
+    color:  rgba(255, 255, 255, 0.856);
+    height: 25px;
+    font-size: 12px;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    height: 8px;
+    /* background-color: red; */
+    background-image: linear-gradient(90deg, rgba(133, 132, 132, 0.322), transparent);
+    
+    border: 0;
+    height: 1px;
+    margin-top: 17px;
+}
+
+    
+
+
+#generated{
+    text-align: center;
+    width: 100%;
+   
+    display:flex;
+    justify-content:space-around;    
+}
+
+#password-1{
+    background-color: transparent;
+    border-radius:3px;
+    background: #2d313d69;
+    color:rgb(93, 204, 148);
+    width: 30%;
+}
+
+#password-2{
+    justify-content: space-between;
+    width: 30%;
+    background-color: transparent;
+    border-radius:3px;
+    background: #2d313d69;
+    color:rgb(93, 204, 148);
+  
+}
